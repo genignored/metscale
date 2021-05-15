@@ -1,5 +1,5 @@
 #This Dockerfile is for QUAST-4.0
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 RUN apt-get update 
 # Dependencies
 RUN apt-get install -y g++ make wget python python-matplotlib zlib1g-dev cmake openjdk-6-jdk curl libboost-all-dev libncurses5-dev git python-setuptools
