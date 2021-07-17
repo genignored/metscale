@@ -1,5 +1,5 @@
 # Use an official Python runtime as a base image
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 
 # Set the maintaniner 
 MAINTAINER ptbrooks@ucdavis.edu 
