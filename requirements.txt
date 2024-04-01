@@ -3,3 +3,4 @@ numpy==1.19.4
 snakemake==5.5.3
 matplotlib==3.3.3
 pandas==1.1.5
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
