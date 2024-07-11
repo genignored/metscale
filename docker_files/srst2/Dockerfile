@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 MAINTAINER ptbrooks@ucdavis.edu
 
 RUN apt-get -y update && \
