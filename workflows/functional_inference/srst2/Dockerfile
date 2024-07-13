@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 RUN apt-get -y update && apt-get install -y python2.7 make     libc6-dev g++ zlib1g-dev build-essential git libx11-dev xutils-dev zlib1g-dev python-pip bowtie2 samtools
 RUN pip install -U pip
 RUN pip install scipy 
