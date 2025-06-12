@@ -1,4 +1,4 @@
-requests==2.24.0
+requests==2.32.4
 numpy==1.19.4
 snakemake==5.5.3
 matplotlib==3.3.3
